@@ -1093,3 +1093,54 @@ body {
         font-size: 28px;
     }
 }
+
+/* Dark Mode */
+body.dark {
+    background: #18201a;
+    color: #f5f1e8;
+}
+
+body.dark .navbar,
+body.dark .product-card,
+body.dark .hero-products,
+body.dark .cart-drawer,
+body.dark .cart-bottom,
+body.dark .order-modal,
+body.dark .success-modal {
+    background: #202a22;
+    color: #f5f1e8;
+}
+
+body.dark .hero p,
+body.dark .price-row,
+body.dark .empty-cart {
+    color: #bdbdb5;
+}
+
+body.dark .category-btn {
+    background: #29342c;
+    color: #fff;
+    border-color: #465247;
+}
+
+body.dark .theme-btn {
+    background: #f0b43c;
+    color: #18201a;
+}
+
+.theme-btn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #1d2b20;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
